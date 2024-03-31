@@ -1,0 +1,29 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    //"noImplicitAny": false,
+    "outDir": "./",
+    // Added - Comment if needed
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    // "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    "isolatedModules": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "skipLibCheck": true,
+    //"strict": true
+  },
+  "files": ["./src/index.ts", "src/core/ledger/interfaces/LedgerBalanceFromLedgerResponse.ts", "src/core/ledger/interfaces/LedgerSigner.ts"]
+}
